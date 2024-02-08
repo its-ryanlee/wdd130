@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 body{
     background-color: #6F6866;
     font-size: 25px;
 }
 .nav_link {
-    padding: 10px;
+    padding:10px;
     color: black;
     text-decoration:none;
     text-align: center;
+    font-family: "Archivo Black";
 }
 img{
-    width:50%;
+    width:60%;
     height: auto;    
     
 }
@@ -34,14 +38,25 @@ nav{
 }
 *{
         text-align: center;
+        font-family: "archivo black","anton", 'Times New Roman', Times, serif
     }
 footer{
     background-color: black;
     color:red;
-    padding: 1px;
-    
+    padding: 20px;
+    border-radius: 20px;
 }
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+p{
+    padding:30px;
+}
+h1{
+    background-color: white;
+    padding: 20px;
+}
+main {
+    border-radius: 20px;
 }
