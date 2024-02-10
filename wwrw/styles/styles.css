@@ -1,40 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-title {
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 2em;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book,
+.join {
+    padding: 15px 30px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    margin-top: 10px;
+}
+
+.book,
+.join {
+    margin-top: 50px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.book,
+.join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.msg {
+    line-height: 1.5em;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #fcfbfb;
-    color: #333;
-    font-family: 'Arial', sans-serif;
-}
-
-header {
-    background-color: rgba(20, 30, 13, 0.7);
-}
-
-nav a {
-    text-align: center;
-    color: #fcfbfb;
+footer .social a {
     text-decoration: none;
 }
 
-nav a:hover {
-    background-color: black;
+footer .social a[target="_blank"] img {
+    border: none;
 }
 
-.book,
-.join {
-    background-color: #4CAF50;
-    color: #fff;
-}
-
-.book:hover,
-.join:hover {
-    background-color: #45a049;
-}
-
+nav a,
 #hero-msg h1,
 #hero-msg h4,
 .button-box,
@@ -51,24 +118,48 @@ main section {
     height: 725px;
 }
 
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book,
+.join {
+    background-color: #4CAF50;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #45a049;
+}
+
 .msg {
     background-color: #fff;
-    color: #333;
 }
 
-/* Footer styling */
 footer {
     background-color: #333;
-    color: #fff;
 }
 
-footer a {
-    text-decoration: none;
-    color: #fff;
-}
-
+nav a,
+nav a:hover,
+.home-title,
+h4,
+.book,
+.join,
+.msg h2,
+.msg p,
+footer p,
+footer a,
 footer a:hover {
-    text-decoration: underline;
+    color: black;
 }
 
 .logo,
@@ -80,7 +171,20 @@ footer a:hover {
     width: 100%;
 }
 
+nav a,
+.book,
+.join,
+footer a {
+    text-decoration: none;
+}
+
 footer p {
     font-size: 1.2em;
 }
 
+footer p a:hover {
+    text-decoration: underline;
+}
+.button-box {
+    padding-top: 40px;
+}
