@@ -1,0 +1,151 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Protest+Strike&display=swap');
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #9CAEA9;
+}
+
+nav a {
+    color: rgb(198, 1, 1);
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 25px;
+    font-family: honk;
+}
+
+nav a:hover {
+    background-color: #788585;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* Home Page */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #9CAEA9;
+    
+}
+
+.wallpaper {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9CAEA9;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: honk;  
+    padding: 10px;
+}
+.text-overlay:hover{
+    background-color: #788585;
+}
+h2 {
+    text-align: center;
+}
+.wallpaper img{
+    width: 100%;
+}
+.text-overlay a {
+   text-decoration: none;
+}
+.wallpaper {
+    position: relative;
+    overflow: hidden; /* Clip any content that overflows the container */
+    width: 100%; /* Ensure the container spans the entire width */
+    max-height: 65vh; /* Limit the height of the container to 50% of viewport height */
+}
+.aboutus{
+    background-color: #9CAEA9;
+    text-align: center;
+    padding: 1px;
+}
+.aboutus h1{
+    padding:20px;
+    background-color: #788585;
+    font-family: honk;
+    color: rgb(170, 0, 0);
+}
+.aboutus p{
+    font-size: 14px;
+    color: black;
+}
+
+.prods {
+    display: flex;
+    justify-content:center;
+    background-color: #788585;
+}
+
+.tops,
+.bottoms {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.tops img,
+.bottoms img {
+    width: 100%; /* Make the images fill their containers */
+    
+}
+
+/* Optional: add some margin to separate the halves */
+.tops {
+    margin-right: 5%;
+    width: 40%;
+    padding-left:100px ;
+}
+
+.bottoms {
+    margin-left: 5%;
+    width: 50%;
+}
+.tb{
+    text-decoration: none;
+    padding: 15px;
+    font-family: honk;
+    font-size: 30px;
+}
+.tb:hover{
+    background-color: #9CAEA9;
+}
+footer  {
+    background-color: #788585;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sp{
+    text-decoration: none;
+    font-size: 25px;   
+    font-family: honk;
+    padding: 25px;
+}
+.sp:hover{
+    background-color: #9CAEA9;
+}
